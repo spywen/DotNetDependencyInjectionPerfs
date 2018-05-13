@@ -2,7 +2,7 @@
 using Microsoft.Practices.Unity.Configuration;
 using System.Configuration;
 
-namespace CheckPerfOfDependencyInjection.DepInjFactories
+namespace IoCContainersPerf.IoCContainers
 {
     public class UnityConfigManagerFactory
     {

@@ -1,6 +1,6 @@
 ﻿using StructureMap;
 
-namespace CheckPerfOfDependencyInjection.DepInjFactories
+namespace IoCContainersPerf.IoCContainers
 {
     public class SMManagerFactory
     {

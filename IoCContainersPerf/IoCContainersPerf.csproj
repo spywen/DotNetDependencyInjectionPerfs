@@ -7,8 +7,8 @@
     <ProjectGuid>{0F26F7DD-D4A0-43B5-9913-348686579706}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CheckPerfOfDependencyInjection</RootNamespace>
-    <AssemblyName>CheckPerfOfDependencyInjection</AssemblyName>
+    <RootNamespace>IoCContainersPerf</RootNamespace>
+    <AssemblyName>IoCContainersPerf</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -66,14 +66,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DepInjFactories\UnityConfigManagerFactory.cs" />
-    <Compile Include="DepInjFactories\UnityCodeManagerFactory.cs" />
+    <Compile Include="IoCContainers\UnityConfigManagerFactory.cs" />
+    <Compile Include="IoCContainers\UnityCodeManagerFactory.cs" />
     <Compile Include="Helpers\MethodTimeWatcher.cs" />
     <Compile Include="MyBusiness.cs" />
-    <Compile Include="DepInjFactories\NInjectManagerFactory.cs" />
+    <Compile Include="IoCContainers\NInjectManagerFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DepInjFactories\SMManagerFactory.cs" />
+    <Compile Include="IoCContainers\SMManagerFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\configs\unity.config">

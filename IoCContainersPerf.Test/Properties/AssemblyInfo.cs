@@ -2,11 +2,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("CheckPerfOfDependencyInjection.Test")]
+[assembly: AssemblyTitle("IoCContainersPerf.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Capgemini")]
-[assembly: AssemblyProduct("CheckPerfOfDependencyInjection.Test")]
+[assembly: AssemblyProduct("IoCContainersPerf.Test")]
 [assembly: AssemblyCopyright("Copyright © Capgemini 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

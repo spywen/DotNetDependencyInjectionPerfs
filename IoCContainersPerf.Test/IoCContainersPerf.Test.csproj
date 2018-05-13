@@ -7,8 +7,8 @@
     <ProjectGuid>{F5ED912C-C96F-4D1B-AFA0-D633B916BE14}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CheckPerfOfDependencyInjection.Test</RootNamespace>
-    <AssemblyName>CheckPerfOfDependencyInjection.Test</AssemblyName>
+    <RootNamespace>IoCContainersPerf.Test</RootNamespace>
+    <AssemblyName>IoCContainersPerf.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -86,9 +86,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CheckPerfOfDependencyInjection\CheckPerfOfDependencyInjection.csproj">
+    <ProjectReference Include="..\IoCContainersPerf\IoCContainersPerf.csproj">
       <Project>{0f26f7dd-d4a0-43b5-9913-348686579706}</Project>
-      <Name>CheckPerfOfDependencyInjection</Name>
+      <Name>IoCContainersPerf</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

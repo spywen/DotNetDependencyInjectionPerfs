@@ -1,9 +1,9 @@
-﻿using CheckPerfOfDependencyInjection.DepInjFactories;
-using CheckPerfOfDependencyInjection.Helpers;
+﻿using IoCContainersPerf.Helpers;
+using IoCContainersPerf.IoCContainers;
 using Ninject;
 using System;
 
-namespace CheckPerfOfDependencyInjection
+namespace IoCContainersPerf
 {
     class Program
     {
@@ -11,7 +11,7 @@ namespace CheckPerfOfDependencyInjection
 
         static void Main(string[] args)
         {
-            using (var mtw = new MethodTimeWatcher("WITHOUT DEPENDENCY INJECTION"))
+            using (var mtw = new MethodTimeWatcher("WITHOUT IoC CONTAINER"))
             {
                 for (var i = 0; i < Iterations; i++)
                 {
@@ -20,7 +20,7 @@ namespace CheckPerfOfDependencyInjection
                 }
             }
 
-            using (var mtw = new MethodTimeWatcher("WITH DEPENDENCY INJECTION (UNITY)"))
+            using (var mtw = new MethodTimeWatcher("WITH IoC CONTAINER: UNITY"))
             {
                 for (var i = 0; i < Iterations; i++)
                 {
@@ -29,7 +29,7 @@ namespace CheckPerfOfDependencyInjection
                 }
             }
 
-            using (var mtw = new MethodTimeWatcher("WITH DEPENDENCY INJECTION (UNITY APP.CONFIG)"))
+            using (var mtw = new MethodTimeWatcher("WITH IoC CONTAINER: UNITY APP.CONFIG"))
             {
                 for (var i = 0; i < Iterations; i++)
                 {
@@ -38,7 +38,7 @@ namespace CheckPerfOfDependencyInjection
                 }
             }
 
-            using (var mtw = new MethodTimeWatcher("WITH DEPENDENCY INJECTION (STRUCTUREMAP)"))
+            using (var mtw = new MethodTimeWatcher("WITH IoC CONTAINER: STRUCTUREMAP"))
             {
                 for (var i = 0; i < Iterations; i++)
                 {
@@ -47,7 +47,7 @@ namespace CheckPerfOfDependencyInjection
                 }
             }
 
-            using (var mtw = new MethodTimeWatcher("WITH DEPENDENCY INJECTION (NINJECT)"))
+            using (var mtw = new MethodTimeWatcher("WITH IoC CONTAINER: NINJECT"))
             {
                 Ninject.IKernel kernel = new StandardKernel(new NInjectManagerFactory());
                 for (var i = 0; i < Iterations; i++)

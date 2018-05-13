@@ -1,6 +1,6 @@
 ﻿using Microsoft.Practices.Unity;
 
-namespace CheckPerfOfDependencyInjection.DepInjFactories
+namespace IoCContainersPerf.IoCContainers
 {
     public class UnityCodeManagerFactory
     {

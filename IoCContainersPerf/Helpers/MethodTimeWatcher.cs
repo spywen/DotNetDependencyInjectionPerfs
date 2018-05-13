@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace CheckPerfOfDependencyInjection.Helpers
+namespace IoCContainersPerf.Helpers
 {
     public class MethodTimeWatcher : IDisposable
     {
@@ -18,7 +18,7 @@ namespace CheckPerfOfDependencyInjection.Helpers
         {
             Watch.Stop();
             var elapsedMs = Watch.ElapsedMilliseconds;
-            Console.WriteLine(Name + ": " + elapsedMs + " ms. <---- ");
+            Console.WriteLine(Name + ": " + elapsedMs + " ms.");
         }
     }
 }

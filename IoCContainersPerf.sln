@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPerfOfDependencyInjection", "CheckPerfOfDependencyInjection\CheckPerfOfDependencyInjection.csproj", "{0F26F7DD-D4A0-43B5-9913-348686579706}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPerfOfDependencyInjection", "IoCContainersPerf\IoCContainersPerf.csproj", "{0F26F7DD-D4A0-43B5-9913-348686579706}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPerfOfDependencyInjection.Test", "CheckPerfOfDependencyInjection.Test\CheckPerfOfDependencyInjection.Test.csproj", "{F5ED912C-C96F-4D1B-AFA0-D633B916BE14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPerfOfDependencyInjection.Test", "IoCContainersPerf.Test\IoCContainersPerf.Test.csproj", "{F5ED912C-C96F-4D1B-AFA0-D633B916BE14}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56F09BD0-9C3D-4861-A4BB-A1A14CB9E6BF}"
 	ProjectSection(SolutionItems) = preProject

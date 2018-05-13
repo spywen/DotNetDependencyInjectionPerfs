@@ -1,4 +1,4 @@
-﻿namespace CheckPerfOfDependencyInjection
+﻿namespace IoCContainersPerf
 {
     public class MyBusiness: IMyBusiness
     {

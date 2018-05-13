@@ -1,10 +1,10 @@
 ﻿using Ninject.Modules;
 
-namespace CheckPerfOfDependencyInjection.DepInjFactories
+namespace IoCContainersPerf.IoCContainers
 {
     public class NInjectManagerFactory : NinjectModule
     {
-        public override void Load() 
+        public override void Load()
         {
             this.Bind<IMyBusiness>().To<MyBusiness>();
         }

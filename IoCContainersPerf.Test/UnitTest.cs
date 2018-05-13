@@ -1,4 +1,4 @@
-﻿using CheckPerfOfDependencyInjection.DepInjFactories;
+﻿using IoCContainersPerf.IoCContainers;
 //UNITY
 using Microsoft.Practices.Unity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -7,7 +7,7 @@ using Ninject;
 //MOCKING FRAMEWORKS
 using Rhino.Mocks;
 
-namespace CheckPerfOfDependencyInjection.Test
+namespace IoCContainersPerf.Test
 {
     [TestClass]
     public class UnitTest
