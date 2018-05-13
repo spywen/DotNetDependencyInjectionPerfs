@@ -66,6 +66,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car\Car.cs" />
+    <Compile Include="Car\Identification.cs" />
+    <Compile Include="Car\SteeringWheel.cs" />
     <Compile Include="IoCContainers\UnityConfigManagerFactory.cs" />
     <Compile Include="IoCContainers\UnityCodeManagerFactory.cs" />
     <Compile Include="Helpers\MethodTimeWatcher.cs" />

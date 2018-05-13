@@ -35,8 +35,8 @@ namespace IoCContainersPerf.IoCContainers
                         ConfigurationManager.OpenMappedExeConfiguration(fileMap, ConfigurationUserLevel.None);
                     var unitySection = (UnityConfigurationSection)configuration.GetSection("unity");
 
-                    _container = new UnityContainer()
-                        .LoadConfiguration(unitySection);
+                    _container = new UnityContainer();
+                    unitySection.Configure(_container, "containerOne");
                 }
                 return _container;
             }
